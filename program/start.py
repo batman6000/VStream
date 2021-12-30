@@ -84,7 +84,7 @@ START_BUTTON = InlineKeyboardMarkup(
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤️ owner", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -104,7 +104,7 @@ START_BUTTON = InlineKeyboardMarkup(
         )
 
 START_STRING = """✨ **Welcome!**\n
-💭 [Video Stream VC](https://t.me/videostreamslbot) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [Video Stream VC](https://t.me/Mtslvidplayerbot) **Allows you to play music and video on groups through the new Telegram's video chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
