@@ -27,7 +27,7 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤ owner", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -65,7 +65,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
-⚡ __Powered by [🇱🇰SL Bots™](https://t.me/SLBotsofficial)""",
+⚡ __Powered by [🇱🇰SL Bots™](https://t.me/MTSLRobot)""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -79,7 +79,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-⚡ __Powered by [🇱🇰SL Bots™](https://t.me/SLBotsofficial)""",
+⚡ __Powered by [🇱🇰SL Bots™](https://t.me/MTSLRobot)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
