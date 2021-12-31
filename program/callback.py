@@ -79,7 +79,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-⚡ __Powered by [🇱🇰SL Bots™](https://t.me/MTSLRobot)""",
+⚡ __Powered by [�mtsl](https://t.me/MTSLRobot)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
